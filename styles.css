@@ -17,6 +17,7 @@ div.nav-bar {
     padding: 1rem 6rem;
     width: 100vw;
     background: #304353;
+
 }
 
 div.logo {
@@ -357,8 +358,9 @@ div.footer h6 {
 
 @media only screen and (max-width: 768px){
     div.nav-bar {
-    
-        padding: 1em 
+        border-width: 0px;
+        padding: 1em; 
+        margin-bottom: -1px;
     }
     
      div.logo {
@@ -393,6 +395,7 @@ div.footer h6 {
         padding: 15px 30px;
         width: 600px;
         height: 400px;
+        margin-top: 30px;
     }
     
     div.background h4 {
@@ -426,17 +429,18 @@ div.snapshot-team p {
 }
 
 div.snapshot-box-content {
-    
     flex-direction: column;
 }
 
 div.box1 {
     width: 280px;
+    height: 280px;
    
 }
 
 div.box3 {
     width: 280px;
+    height: 280px;
 }
 
 div.box3 h5 {
@@ -463,12 +467,20 @@ div.gallery-content p {
          
     font-size: 1.7rem;
 }
+div.hero-content-heading h3 {
+    margin-top: 60px;
 
 }
+div.hero-section {
+    padding: 1.5rem;
+}
 
+
+
+}
 @media only screen and (max-width: 475px){
     div.hero-section {
-        padding: 5rem;
+        padding: 1.5rem;
     }
-    
+   
 }
