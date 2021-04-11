@@ -1,1 +1,1 @@
-https://github.com/cutebid/zuri-responsive-design-starter# zuri-responsive-design-starter
+https://cutebid.github.io/zuri-responsive-design-starter/
