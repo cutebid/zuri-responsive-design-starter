@@ -358,7 +358,6 @@ div.footer h6 {
 
 @media only screen and (max-width: 768px){
     div.nav-bar {
-        border-width: 0px;
         padding: 1em; 
         margin-bottom: -1px;
     }
@@ -468,14 +467,27 @@ div.gallery-content p {
     font-size: 1.7rem;
 }
 div.hero-content-heading h3 {
-    margin-top: 60px;
+    padding-top: 75px;
+    font-size: 20px;
 
 }
 div.hero-section {
     padding: 1.5rem;
 }
 
+div.snapshot-team h2{
+    font-size: 1.3rem;
+}
+div.gallery-content h4 {
+    font-size: 1.3rem;
+}
 
+div.gallery-content p {
+    color: #A6A5AA;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+}
 
 }
 @media only screen and (max-width: 475px){
