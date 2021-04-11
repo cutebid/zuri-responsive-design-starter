@@ -478,16 +478,20 @@ div.hero-section {
 div.snapshot-team h2{
     font-size: 1.3rem;
 }
+div.snapshot-team p {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: auto;
+}
 div.gallery-content h4 {
     font-size: 1.3rem;
 }
-
 div.gallery-content p {
-    color: #A6A5AA;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    padding-top: 0.8rem;
+    font-size: 0.8rem;
+    width: 80%;
+    margin: auto;
 }
+
 
 }
 @media only screen and (max-width: 475px){
