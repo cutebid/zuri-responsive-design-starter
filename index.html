@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
+    <script src="https://kit.fontawesome.com/1dec0aadaa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> 
     <div class="nav-bar">
         <div class="logo">Snapshot</div>
+        <div class="harmburger" onclick="show()"> <i class="fas fa-bars"></i> </div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -103,5 +105,13 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+
+    <script>
+        function show(){
+       let unorderedList = document.querySelector('.nav-links');
+       unorderedList.classList.toggle('change');
+
+       }
+    </script>
 </body>
 </html>
